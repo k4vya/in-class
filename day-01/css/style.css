@@ -1,1 +1,9 @@
 /* we'll add some basic style here */
+html {
+    font-family: Helvetica, sans-serif;
+    color: rgba(255, 0, 0, 0.5);
+}
+h1{
+    font-family: monospace;
+    font-size: 3em;
+}
