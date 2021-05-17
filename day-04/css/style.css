@@ -1,7 +1,19 @@
-.intro {
-
+*, *::before, *::after { 
+    box-sizing: border-box;
 }
 
+.intro {
+    position: relative;
+    width: 70vw;
+    background: rgba(0, 0, 255, .25);
+    margin-bottom: 5px;
+    margin-right: 300px;
+}
+
+#zen-supporting { 
+    background: rgba(255, 0, 0, .25);
+    margin-right: 30vw;
+}
 header {
 
 }
@@ -11,21 +23,42 @@ header {
 }
 
 .preamble {
-
+    top: 425px;
 }
 
 .sidebar {
-
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 255, 0, .75);
 }
 
 #zen-supporting {
+    display: flex;
+}
+
+.explanation, .participation, .benefits, .requirements{
+    flex: 1;
+    flex-basis: 400px;
 
 }
 
-.explanation, .particpation, .benefits, .requirements {
+.requirements { 
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 400px;
+    flex: 2 0 0;
+}
 
+[role=banner] { 
+    float: left;
+    width: 400px;
+    margin: 0px 25px 25px 25px;
+    padding: 2em;
+    background: rgba(0, 0, 255, 0.25);
+    border: 10px solid aqua;
 }
 
 footer {
-
+    flex-basis: 15px;
 }
