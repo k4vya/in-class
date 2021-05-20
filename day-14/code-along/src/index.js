@@ -16,7 +16,7 @@ const employeeData = [
     {
         name: "Enrique",
         title: "manager",
-        salary: 200000
+        salary: 105000
     },
     {
         name: "Shana",
@@ -26,8 +26,13 @@ const employeeData = [
     {
         name: "Shana",
         title: "manager",
-        salary: 105000
+        salary: 205000
     },
+    {
+        name: "Elizabeth",
+        title: "CEO", 
+        salary:15000000
+    }
 ];
 
 ReactDOM.render(<SearchApp data={ employeeData } />, document.getElementById('root'));
